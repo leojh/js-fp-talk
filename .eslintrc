@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "semi": 0,
+    "comma-dangle": "off"
+  },
+  "globals": {
+    "test": true,
+    "describe": true,
+    "expect": true
+  }
+}
