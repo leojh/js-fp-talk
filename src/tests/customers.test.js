@@ -18,7 +18,7 @@ describe('customersWhoBuyATonFromMe', () => {
 
   test('should be sorted', () => {
     const customersWhoBuyATonFromMe = getFirstNamesOfMyBestCustomers(customers)
-    expect(customersWhoBuyATonFromMe).toEqual(['Erlich', 'Leo', 'Richard'])
+    expect(customersWhoBuyATonFromMe).toEqual(['Erlich', 'Jared', 'Leo'])
   })
 
   test('log results', () => {

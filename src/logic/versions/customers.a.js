@@ -1,17 +1,18 @@
 // Procedural
 export const getFirstNamesOfMyBestCustomers = function(customers) {
-  const arr = []
+  const bestCustomers = []
   for (var i = 0; i < customers.length; i++) {
     var customer = customers[i]
+    
     if (customer.balance > 5000) {
-      arr.push(customer)
+      bestCustomers.push(customer)
     }
   }
 
   var firstNames = []
 
-  for (var i = 0; i < arr.length; i++) {
-    var customer = customers[i]
+  for (var i = 0; i < bestCustomers.length; i++) {
+    var customer = bestCustomers[i]
     firstNames.push(customer.firstName)
   }
 
