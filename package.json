@@ -13,10 +13,10 @@
     "jest": "^22.4.3",
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-es2017": "^6.24.1"
+    "babel-preset-es2017": "^6.24.1",
+    "standard": "^11.0.1"
   },
   "dependencies": {
-    "ramda": "^0.25.0",
-    "standard": "^11.0.1"
+    "ramda": "^0.25.0"
   }
 }
