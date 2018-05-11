@@ -9,6 +9,9 @@
   },
   "author": "Leo Hernandez",
   "license": "ISC",
+  "standard": {
+    "globals": [ "describe", "test", "expect" ]
+  },
   "devDependencies": {
     "jest": "^22.4.3",
     "babel-cli": "^6.24.1",
