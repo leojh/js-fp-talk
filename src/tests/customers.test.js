@@ -1,5 +1,5 @@
 
-import { getFirstNamesOfMyBestCustomers } from '../logic/customers'
+import { getFirstNamesOfMyBestCustomers } from '../logic/customers/customers.a'
 import customers from '../data/customers'
 
 describe('customersWhoBuyATonFromMe', () => {
