@@ -1,5 +1,4 @@
 // Pipe results
-import { sort } from 'ramda'
 
 export const getFirstNamesOfMyBestCustomers = function (customers) {
   return customers

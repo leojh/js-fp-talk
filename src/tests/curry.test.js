@@ -1,5 +1,4 @@
 import { makeCustomer } from '../logic/makeCustomers'
-import customers from '../data/customers'
 
 describe('makeCustomers', () => {
   test('makes customers when all params are supplied', () => {
