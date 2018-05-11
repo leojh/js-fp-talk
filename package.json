@@ -10,13 +10,17 @@
   "author": "Leo Hernandez",
   "license": "ISC",
   "standard": {
-    "globals": [ "describe", "test", "expect" ]
+    "globals": [
+      "describe",
+      "test",
+      "expect"
+    ]
   },
   "devDependencies": {
-    "jest": "^22.4.3",
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-es2017": "^6.24.1",
+    "jest": "^22.4.3",
     "standard": "^11.0.1"
   },
   "dependencies": {
